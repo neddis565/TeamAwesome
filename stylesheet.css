@@ -3,9 +3,31 @@ h1 {
 }
 
 .container {
-    border: 2px solid hotpink;
-    margin: 80px;
-    padding: 20px;
-    justify-content: center;
-    align-items: justify;
+    border: 2px dotted hotpink;
+    margin: 0px 200px 0px 200px;
+    padding: 40px;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    
+}
+
+p {
+    color: hotpink;
+    font-size: 12px;
+}
+
+.loginBox {
+    color: hotpink;
+
+}
+button {
+    background-color: hotpink;
+    color: white;
+}
+
+#submit :hover {
+    
+    background-color: white;
+    color: hotpink;
 }

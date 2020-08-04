@@ -3,5 +3,9 @@ h1 {
 }
 
 .container {
-    border: 2px dotted hotpink;
+    border: 2px solid hotpink;
+    margin: 80px;
+    padding: 20px;
+    justify-content: center;
+    align-items: justify;
 }

@@ -3,4 +3,4 @@
 // let password
 // function to validate 18+
 
-//interactive dashboard
+//functions for interactive dashboard

@@ -1,5 +1,5 @@
 h1 {
-    color: hotpink;
+    color: white;
 }
 
 .container {
@@ -12,10 +12,12 @@ h1 {
     
 }
 
-p {
-    color: hotpink;
+#head {  
+    background: hotpink;
+    color: white;
     font-size: 12px;
-}
+  }
+
 
 .loginBox {
     color: hotpink;
@@ -30,4 +32,10 @@ button {
     
     background-color: white;
     color: hotpink;
+}
+
+.footer {
+    background: hotpink;
+    color: white;
+    font-size: 12px;
 }

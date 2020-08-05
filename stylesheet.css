@@ -16,26 +16,34 @@ h1 {
     background: hotpink;
     color: white;
     font-size: 12px;
+    
   }
 
 
 .loginBox {
     color: hotpink;
+    padding: 20px;
 
 }
 button {
     background-color: hotpink;
     color: white;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 
 #submit :hover {
     
     background-color: white;
     color: hotpink;
+    border-radius: 20px;
+    border: 1px solid hotpink;
 }
 
 .footer {
-    background: hotpink;
+    border: 2px solid black;
+    background-color: hotpink;
     color: white;
     font-size: 12px;
+    padding: 10px;
 }

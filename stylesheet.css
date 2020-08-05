@@ -4,7 +4,7 @@ h1 {
 
 .container {
     border: 2px dotted hotpink;
-    margin: 0px 200px 0px 200px;
+    margin: 100px 200px 0px 200px;
     padding: 40px;
     text-align: center;
     display: block;
@@ -16,14 +16,19 @@ h1 {
     background: hotpink;
     color: white;
     font-size: 12px;
+    justify-content: space-evenly;
+    
     
   }
 
 
 .loginBox {
     color: hotpink;
-    padding: 20px;
+}
 
+input {
+    border-radius: 20px;
+    border: 1px dotted #ffb6c1;
 }
 button {
     background-color: hotpink;
@@ -41,7 +46,6 @@ button {
 }
 
 .footer {
-    border: 2px solid black;
     background-color: hotpink;
     color: white;
     font-size: 12px;

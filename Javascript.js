@@ -3,10 +3,20 @@
 // let password
 // function to validate 18+
 
-//functions for interactive dashboard
+// functions for interactive dashboard
 
+// populates dropdown for day in DOB.
+var selectDay = document.getElementById("day");
 
-//dropdown months
+for (i = 1; i <= 31; i++) {
+    var option = i;
+    var newElement = document.createElement("option");
+    newElement.textContent = option;
+    newElement.value = option;
+    selectDay.appendChild(newElement);
+}
+
+// populates dropdown for month in DOB.
 var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
 "November", "December"];
 
@@ -19,3 +29,18 @@ for (var i = 0; i < month.length; i++) {
     newElement.value = option;
     selectMonth.appendChild(newElement);
 }
+
+// populates dropdown for year in DOB.
+var currentYear = new Date().getFullYear();
+var startYear = currentYear - 100;
+
+var selectYear = document.getElementById("year");
+
+for (var i = currentYear; i >= startYear; i--) {
+    var option = i;
+    var newElement = document.createElement("option");
+    newElement.textContent = option;
+    newElement.value = option;
+    selectYear.appendChild(newElement);
+}
+

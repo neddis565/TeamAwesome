@@ -20,11 +20,14 @@ h1 {
     color: white;
     font-size: 12px;
     justify-content: space-evenly;
+    padding: 10px;
 
   }
 
-  .loginBox {
+  /*Currently working on*/
+.loginBox {
     color: #3E49BB;
+    
     
 }
 
@@ -32,6 +35,7 @@ input {
     border-radius: 20px;
     border: 1px dotted #AFCBFF;
 }
+
 button {
     background-color: #3E49BB;
     color: white;

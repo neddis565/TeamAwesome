@@ -3,7 +3,7 @@ h1 {
 }
 
 .container {
-    border: 2px dotted hotpink;
+   
     margin: 100px 200px 0px 200px;
     padding: 40px;
     text-align: center;
@@ -13,7 +13,8 @@ h1 {
 }
 
 #head {  
-    background: hotpink;
+    background: #97A2FF;
+    border-radius: 20px;
     color: white;
     font-size: 12px;
     justify-content: space-evenly;
@@ -23,15 +24,15 @@ h1 {
 
 
 .loginBox {
-    color: hotpink;
+    color: #3E49BB;
 }
 
 input {
     border-radius: 20px;
-    border: 1px dotted #ffb6c1;
+    border: 1px dotted #AFCBFF;
 }
 button {
-    background-color: hotpink;
+    background-color: #3E49BB;
     color: white;
     border-radius: 20px;
     border: 1px solid white;
@@ -40,13 +41,14 @@ button {
 #submit :hover {
     
     background-color: white;
-    color: hotpink;
+    color: #3E49BB;
     border-radius: 20px;
-    border: 1px solid hotpink;
+    border: 1px solid #AFCBFF;
 }
 
 .footer {
-    background-color: hotpink;
+    background-color: #97A2FF;
+    border-radius: 20px;
     color: white;
     font-size: 12px;
     padding: 10px;

@@ -1,3 +1,5 @@
+/*Index page*/
+
 h1 {
     color: white;
 }
@@ -12,19 +14,18 @@ h1 {
     
 }
 
-#head {  
+.head {  
     background: #97A2FF;
     border-radius: 20px;
     color: white;
     font-size: 12px;
     justify-content: space-evenly;
-    
-    
+
   }
 
-
-.loginBox {
+  .loginBox {
     color: #3E49BB;
+    
 }
 
 input {
@@ -53,3 +54,9 @@ button {
     font-size: 12px;
     padding: 10px;
 }
+
+
+
+
+/*registration page*/
+

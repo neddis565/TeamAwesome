@@ -19,21 +19,26 @@
         <div class="loginBox2"> <!--maybe set diferently to login, float left-->
             <h2>Register</h2>
               <p>Complete this form to create an account</p>
-                <div id="name">Name <input type="name" placeholder=""></div>
-                    <div id="email">Email<input type="email" placeholder="example@example.co.uk" required></div>
-                         <label for="age" aria-required="">What is your date of birth</label> 
-                            <select day="day" id="day"></select>
+                <div class="reg" id="name">Name <input type="name" placeholder=""></div>
+                    <div class="reg" id="email">Email<input type="email" placeholder="example@example.co.uk" required></div>
+                    <div class="reg" id="username">Username <input type="username" placeholder="example@example.co.uk"></div>
+                    <div class="reg" id="password">Password <input type="password" placeholder="Password"></div><br>
+                            <label class="reg" for="age" aria-required="">What is your date of birth</label> 
+                            <select class="reg"  day="day" id="day"></select>
                             <select month="month" id="month"></select>
                             <select year="year" id="year"></select>
                             <br>
-
+                                <div class="reg">
                             <input type="checkbox" name="yes" value="Yes"></input> 
                             <label for="yes"></label>Would you like to receive marketing emails?</label><br>
                             <input type="checkbox" name="yes" value="Yes"></input> 
-                            <label for="yes"></label>Would you like to receive our newsletter?</label>
+                            <label for="yes"></label>Would you like to receive our newsletter?</label><br>
+                            <input type="checkbox" name="yes" value="Yes"></input> 
+                            <label for="yes" aria-required="true"></label>Do you accept our Terms & Conditions?</label>
+                                </div>   
 
 
-                <div id="submit"><button type="submit" form="form1" value="Submit">Submit</button></div>
+                <div class="reg" id="submit"><button type="submit" form="form1" value="Submit">Submit</button></div>
                 <div>
                     <footer class="footer">
                         <!--Link to view and accept T&Cs with checkbox-->

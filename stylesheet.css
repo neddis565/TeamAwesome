@@ -35,7 +35,7 @@ h1 {
 
 input {
     border-radius: 20px;
-    border: 1px dotted #AFCBFF;
+    border: 1px dotted #97A2FF;
     padding: 10px;
   }
 
@@ -44,14 +44,15 @@ button {
     color: white;
     border-radius: 20px;
     border: 1px solid white;
+    padding: 10px;
   }
 
 #submit :hover {
     
     background-color: white;
-    color: #3E49BB;
+    color: #97a2ff;
     border-radius: 20px;
-    border: 1px solid #AFCBFF;
+    border: 1px solid #3E49BB;
   }
 
 .footer {
@@ -73,7 +74,30 @@ button {
 
 /* Dashboard */
 
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #97A2FF;
+      }
 
+      #nav-bar a {
+        font-size: 18px;
+        padding: 14px 125px;  
+        float: left;
+        text-decoration: none;
+          }     
 
+          #nav-bar a:hover {
+            background: white;
+            color: #97A2FF;
+              }
+
+ /*.banner {
+    width: 336px;
+    height: 280px;
+    
+}     
+*/      
 
 /* Dashboard */

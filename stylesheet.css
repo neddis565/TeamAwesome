@@ -20,20 +20,26 @@ h1 {
     color: white;
     font-size: 12px;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 5px;
 
   }
 
   /*Currently working on*/
-.loginBox {
+.loginBox1 {
+    color: #3E49BB;
+}
+
+.loginBox2 {
     color: #3E49BB;
     
-    
 }
+
+/*working on above code*/
 
 input {
     border-radius: 20px;
     border: 1px dotted #AFCBFF;
+    padding: 10px;
 }
 
 button {

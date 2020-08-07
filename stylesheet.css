@@ -11,8 +11,7 @@ h1 {
     text-align: center;
     display: block;
     justify-content: space-between;
-    
-}
+  }
 
 .head {  
     background: #97A2FF;
@@ -21,33 +20,31 @@ h1 {
     font-size: 12px;
     justify-content: space-evenly;
     padding: 5px;
-
   }
 
   /*Currently working on*/
 .loginBox1 {
     color: #3E49BB;
-}
+  }
 
 .loginBox2 {
     color: #3E49BB;
     
-}
-
+  }
 /*working on above code - unsure abot two different login boxes or just one for both pages...*/
 
 input {
     border-radius: 20px;
     border: 1px dotted #AFCBFF;
     padding: 10px;
-}
+  }
 
 button {
     background-color: #3E49BB;
     color: white;
     border-radius: 20px;
     border: 1px solid white;
-}
+  }
 
 #submit :hover {
     
@@ -55,7 +52,7 @@ button {
     color: #3E49BB;
     border-radius: 20px;
     border: 1px solid #AFCBFF;
-}
+  }
 
 .footer {
     background-color: #97A2FF;
@@ -63,10 +60,8 @@ button {
     color: white;
     font-size: 12px;
     padding: 10px;
-}
-
-
-
+  }
+/*index*/
 
 /*registration page*/
 
@@ -74,4 +69,11 @@ button {
     border: 2px solid green;
     margin: 50px 0 px 50px 0px;
     padding: 20px 0px 20px 0px;
-}
+  }
+
+/* Dashboard */
+
+
+
+
+/* Dashboard */

@@ -33,11 +33,19 @@ h1 {
   }
 /*working on above code - unsure abot two different login boxes or just one for both pages...*/
 
+
 input {
     border-radius: 20px;
     border: 1px dotted #97A2FF;
     padding: 10px;
+    
   }
+
+   input:focus {
+       outline: none;
+   }
+
+
 
 button {
     background-color: #3E49BB;
@@ -81,14 +89,14 @@ button {
     background: #97A2FF;
       }
 
-      #nav-bar a {
+    #nav-bar a {
         font-size: 18px;
         padding: 14px 125px;  
         float: left;
         text-decoration: none;
           }     
 
-          #nav-bar a:hover {
+        #nav-bar a:hover {
             background: white;
             color: #97A2FF;
               }

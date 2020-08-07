@@ -44,3 +44,9 @@ for (var i = currentYear; i >= startYear; i--) {
     selectYear.appendChild(newElement);
 }
 
+//submit button
+//calling on function to send user to dashboard
+
+function submit() {
+    window.location.href="dashboard.html";
+}

@@ -108,16 +108,8 @@ button {
             background: white;
             color: #97A2FF;
               }
-/*below code for sticky nav bar */
-              .sticky {
-                position: fixed;
-                top: 0;
-                width: 100%;
-              }
 
-              .sticky + .content {
-                padding-top: 60px;
-              }
+            
 
 
 

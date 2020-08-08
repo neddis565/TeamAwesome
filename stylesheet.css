@@ -1,4 +1,4 @@
-/*Index page*/
+/*Index page start*/
 
 h1 {
     color: white;
@@ -53,6 +53,7 @@ button {
     border-radius: 20px;
     border: 1px solid white;
     padding: 10px;
+    
   }
 
 #submit :hover {
@@ -63,6 +64,8 @@ button {
     border: 1px solid #3E49BB;
   }
 
+
+
 .footer {
     background-color: #97A2FF;
     border-radius: 20px;
@@ -70,9 +73,9 @@ button {
     font-size: 12px;
     padding: 10px;
   }
-/*index*/
+/*index end*/
 
-/*registration page*/
+/*registration page start*/
 
 .reg {
     border: 2px solid green;
@@ -80,13 +83,18 @@ button {
     padding: 20px 0px 20px 0px;
   }
 
-/* Dashboard */
+ /*registration page end*/ 
+
+
+
+/* Dashboard start*/
 
 #nav-bar {
     display: flex;
     justify-content: center;
     color: white;
     background: #97A2FF;
+    overflow: hidden; /*new*/
       }
 
     #nav-bar a {
@@ -100,9 +108,22 @@ button {
             background: white;
             color: #97A2FF;
               }
+/*below code for sticky nav bar */
+              .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+              }
+
+              .sticky + .content {
+                padding-top: 60px;
+              }
 
 
 
+
+
+/*needs work - want to adjust height */
  .banner {
      background-image: url("https://cdn.pixabay.com/photo/2014/12/15/15/36/cloth-569222_960_720.jpg");
     border: 2px solid black;
@@ -113,4 +134,6 @@ button {
 }     
    
 
-/* Dashboard */
+
+
+/* Dashboard end */

@@ -101,11 +101,16 @@ button {
             color: #97A2FF;
               }
 
- /*.banner {
-    width: 336px;
-    height: 280px;
+
+
+ .banner {
+     background-image: url("https://cdn.pixabay.com/photo/2014/12/15/15/36/cloth-569222_960_720.jpg");
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }     
-*/      
+   
 
 /* Dashboard */

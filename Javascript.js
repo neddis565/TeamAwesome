@@ -55,19 +55,3 @@ function submit() {
 
 //dashboard
 
-//for the nav bar to stick to the top of page when scrolling
-//nav bar will disappear when no scrollings
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("nav-bar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }

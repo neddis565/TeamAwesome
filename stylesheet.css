@@ -122,28 +122,22 @@ Dashboard end */
 /*Contact Us Start*/
 
 .maincontact {
-  border: 3px solid black;
-  display: block;
-  justify-content: space-between;
-  font-size: 15px;
-  margin: 70px;
-  text-decoration: none;
+  border: 3px dotted black;
 }
 
 .contact1 {
-  border: 2px dotted hotpink;
+  border: 2px solid red;
   margin-right: 50%;
-  display: block;
- 
+
 }
 
 .contact2 {
-  border: 2px dotted yellow;
-  display: block;
-  justify-content: center;
+  border: 2px solid yellow;
   margin-left: 50%;
   text-align: center;
 }
+
+
 
 #contactus {
   text-align: center;

@@ -53,6 +53,7 @@ button {
     border: 1px solid white;
     padding: 10px;
     
+    
   }
 
 #submit :hover {
@@ -122,13 +123,11 @@ Dashboard end */
 /*Contact Us Start*/
 
 .maincontact {
-  border: 3px dotted black;
   max-width: auto;
   margin: 10px;
   padding: 20px;
   display: block;
   justify-content: space-around;
-  
 }
 
 .contactbox {
@@ -136,22 +135,20 @@ Dashboard end */
 }
 
 #contact1 {
-  border: 2px solid red;
   margin-left: 20px;
   padding: 80px;
   display: inline-block;
-  
-
+  color: #3E49BB;
 }
 
+
 #contact2 {
-  border: 2px solid yellow;
   display: inline-block;
   margin-left: 180px;
-  padding: 80px;
+  padding: 100px;
   text-align: center;
- 
-  
+  font-size: 20px;
+  color: #3E49BB;
 }
 
 

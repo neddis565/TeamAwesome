@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="stylesheet.css"></link>
 </head>
 <body>
-    <h1>Contact Us</h1>
+     <div class="contact">
+         <header class="head"><h1>Contact Us</h1></header>
+          <div class="reg" id="name">Name <input type="name" placeholder=""></div>
+          <div class="reg" id="email">Email<input type="email" placeholder="example@example.co.uk" required></div>
+             <div>
+                 <label for="">Any Additional Comments:</label><br>
+                 <textarea class="reg" id="comment" name="comment" rows="4" cols="50">
+                 </textarea>
+             </div>  
+                 <div class="reg" id="submit"><button onclick=submit() type="submit" form="form1" value="Submit">Submit</button></div>               
+     </div>
+ 
+ <script src="Javascript.js"></script>
+                    
 </body>
 </html>

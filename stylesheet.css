@@ -70,6 +70,7 @@ button {
     color: white;
     font-size: 12px;
     padding: 10px;
+    text-align: center;
   }
 /*index end*/
 
@@ -77,7 +78,7 @@ button {
 
 /*registration page start*/
 .reg {
-    border: 2px solid green;
+    
     margin: 50px 0 px 50px 0px;
     padding: 20px 0px 20px 0px;
   }
